@@ -1,0 +1,11 @@
+You way have issue import termcolor error, just copy the file /usr/lib/python3/dist-packages to 
+the BeeF-Over-Wan folder(the folder that git cloned and just do 'ls' if issues on finding the folder)
+
+after that always run the script as root 
+
+Ex:(entirely)
+sudo su root(enter the password)
+cd BeeF-Over-Wan
+python BeefOverWan.py
+
+#I dont think there will be problem with ngrok apache.
